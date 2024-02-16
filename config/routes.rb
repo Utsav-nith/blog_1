@@ -11,8 +11,10 @@ Rails.application.routes.draw do
   # defining the routes
   # get '/contact' , to:"root#contact"
   # get '/about'   , to:"root#about"
-  resources :posts    #means all routes are defined as posts/any_name
-  root "posts#index"                    #first root is keyword in ROR so it is basically to set the first page of web app or starting page of web app
+  resources :posts do
+  	resources :comments
+  end
+    root "posts#index"                    #first root is keyword in ROR so it is basically to set the first page of web app or starting page of web app
   
 
 end
