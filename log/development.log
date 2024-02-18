@@ -4296,3 +4296,2123 @@ Processing by PostsController#show as HTML
 Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms | Allocations: 7221)
 
 
+Started GET "/search" for ::1 at 2024-02-16 18:22:33 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+Started GET "/search/index" for ::1 at 2024-02-16 18:22:38 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 142)
+  Rendered layout layouts/application.html.erb (Duration: 85.3ms | Allocations: 50028)
+Completed 200 OK in 92ms (Views: 87.3ms | ActiveRecord: 0.0ms | Allocations: 53233)
+
+
+Started GET "/search/index" for ::1 at 2024-02-16 18:24:12 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1279)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2648)
+
+
+
+ArgumentError - No Ransack::Search object was provided to search_form_for!:
+  app/views/search/index.html.erb:2
+
+Started POST "/__better_errors/db297537ccfae877/variables" for ::1 at 2024-02-16 18:24:12 +0530
+Started GET "/search/index" for ::1 at 2024-02-16 18:24:25 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1019)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1094)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1388)
+
+
+
+ArgumentError - No Ransack::Search object was provided to search_form_for!:
+  app/views/search/index.html.erb:2
+
+Started POST "/__better_errors/c0d8bd259c398f43/variables" for ::1 at 2024-02-16 18:24:25 +0530
+Started GET "/search/index" for ::1 at 2024-02-16 18:24:41 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1252)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1341)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2726)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <h1>Search#index</h1>
+<% %>
+    <%= f.search_field :title_or_body_cont, placeholder: "Search..." %>
+    <%= f.submit "Search!" %>
+<% end %>:
+  app/views/search/index.html.erb:7:in `'
+
+Started POST "/__better_errors/39b7754c44e45b89/variables" for ::1 at 2024-02-16 18:24:41 +0530
+Started GET "/search/index" for ::1 at 2024-02-16 18:24:55 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 20.5ms | Allocations: 1176)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 1268)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 2653)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <h1>Search#index</h1>
+<% %>
+    <%=  placeholder: "Search..." %>
+    <%= f.submit "Search!" %>
+<% end %>:
+  app/views/search/index.html.erb:3:in `'
+  app/views/search/index.html.erb:7:in `'
+
+Started POST "/__better_errors/dffd2f3cffd96722/variables" for ::1 at 2024-02-16 18:24:55 +0530
+Started GET "/search/index" for ::1 at 2024-02-16 18:28:09 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1181)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1262)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2613)
+
+
+
+ArgumentError - No Ransack::Search object was provided to search_form_for!:
+  app/views/search/index.html.erb:2
+
+Started POST "/__better_errors/ffda244029b1b798/variables" for ::1 at 2024-02-16 18:28:09 +0530
+Started GET "/search/index" for ::1 at 2024-02-16 18:31:38 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 4532)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 5909)
+
+
+Started GET "/search/index" for ::1 at 2024-02-16 18:32:11 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1166)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1258)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2646)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <h1>Search#index</h1>
+<%= search_form_for @q do |f|
+    <%= f.search_field :title_or_body_cont, placeholder: "Search..." %>
+    <%= f.submit "Search!" %>
+<% end %> %>:
+  app/views/search/index.html.erb:3:in `'
+  app/views/search/index.html.erb:8:in `'
+
+Started POST "/__better_errors/f8680e23b5fb2854/variables" for ::1 at 2024-02-16 18:32:11 +0530
+Started GET "/search/index" for ::1 at 2024-02-16 18:32:44 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1168)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1260)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2648)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <h1>Search#index</h1>
+<%= search_form_for @q do |f|
+    <%= f.search_field :title, placeholder: "Search..." %>
+    <%= f.submit "Search!" %>
+<% end %> %>:
+  app/views/search/index.html.erb:3:in `'
+  app/views/search/index.html.erb:8:in `'
+
+Started POST "/__better_errors/e51cb944ab5881f0/variables" for ::1 at 2024-02-16 18:32:44 +0530
+Started GET "/search/index" for ::1 at 2024-02-16 18:33:33 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1162)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1254)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2643)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <h1>Search#index</h1>
+<%= search_form_for @q do |f|
+    <%= f.search_field :title, placeholder: "Search..." %>
+    <%= f.submit "Search!" %>
+<% end %>:
+  app/views/search/index.html.erb:3:in `'
+  app/views/search/index.html.erb:7:in `'
+
+Started POST "/__better_errors/a44e5b5dd1c7621a/variables" for ::1 at 2024-02-16 18:33:33 +0530
+Started GET "/search/index" for ::1 at 2024-02-16 18:36:20 +0530
+Processing by SearchController#index as HTML
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 906)
+
+
+
+AbstractController::ActionNotFound - The show action could not be found for the :set_post
+callback on SearchController, but it is listed in the controller's
+:only option.
+Raising for missing callback actions is a new default in Rails 7.1, if you'd
+like to turn this off you can delete the option from the environment configurations
+or set `config.action_controller.raise_on_missing_callback_actions` to `false`.:
+
+Started POST "/__better_errors/5ec544a6a815fa50/variables" for ::1 at 2024-02-16 18:36:20 +0530
+Started GET "/search/index" for ::1 at 2024-02-16 18:37:39 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1167)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1259)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 1.5ms | Allocations: 17319)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <h1>Search#index</h1>
+<%= search_form_for @q do |f|
+    <%= f.search_field :title, placeholder: "Search..." %>
+    <%= f.submit "Search!" %>
+<% end %>:
+  app/views/search/index.html.erb:3:in `'
+  app/views/search/index.html.erb:7:in `'
+
+Started POST "/__better_errors/2ca9f2867739a06e/variables" for ::1 at 2024-02-16 18:37:39 +0530
+Started GET "/search/index" for ::1 at 2024-02-16 18:39:35 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1165)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1257)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.1ms | Allocations: 5154)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <h1>Search#index</h1>
+<%= search_form_for @q do |f|
+    <%= f.search_field :title, placeholder: "Search..." %>
+    <%= f.submit "Search!" ,class: "btn btn-primary" %>
+<% end %>:
+  app/views/search/index.html.erb:3:in `'
+  app/views/search/index.html.erb:7:in `'
+
+Started POST "/__better_errors/29fad53967e18dd5/variables" for ::1 at 2024-02-16 18:39:35 +0530
+Started GET "/search/index" for ::1 at 2024-02-16 18:41:23 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2374)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2453)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.4ms | Allocations: 6314)
+
+
+
+RuntimeError - Ransack needs Post attributes explicitly allowlisted as
+searchable. Define a `ransackable_attributes` class method in your `Post`
+model, watching out for items you DON'T want searchable (for
+example, `encrypted_password`, `password_reset_token`, `owner` or
+other sensitive information). You can use the following as a base:
+```ruby
+class Post < ApplicationRecord
+  # ...
+  def self.ransackable_attributes(auth_object = nil)
+    ["content", "created_at", "id", "id_value", "title", "updated_at"]
+  end
+  # ...
+end
+```:
+  app/views/search/index.html.erb:3
+  app/views/search/index.html.erb:2
+
+Started POST "/__better_errors/9caf83fa4c6e80e1/variables" for ::1 at 2024-02-16 18:41:23 +0530
+Started GET "/search/index" for ::1 at 2024-02-16 18:46:50 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 596)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 4837)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 8492)
+
+
+Started GET "/posts/new" for ::1 at 2024-02-16 18:47:00 +0530
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 35.0ms | Allocations: 14355)
+  Rendered posts/new.html.erb within layouts/application (Duration: 35.5ms | Allocations: 14631)
+  Rendered layout layouts/application.html.erb (Duration: 38.4ms | Allocations: 18186)
+Completed 200 OK in 67ms (Views: 39.0ms | ActiveRecord: 2.3ms | Allocations: 92028)
+
+
+Started POST "/posts" for ::1 at 2024-02-16 18:47:17 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"title"=>"first post", "content"=>"hello from post"}, "commit"=>"Create post"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:12:in `create'
+  [1m[36mPost Create (1.9ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["title", "first post"], ["content", "hello from post"], ["created_at", "2024-02-16 13:17:17.596318"], ["updated_at", "2024-02-16 13:17:17.596318"]]
+  ↳ app/controllers/posts_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:12:in `create'
+Redirected to http://[::1]:3000/posts/6
+Completed 302 Found in 11ms (ActiveRecord: 2.9ms | Allocations: 4050)
+
+
+Started GET "/posts/6" for ::1 at 2024-02-16 18:47:17 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/views/posts/show.html.erb:31
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/views/posts/show.html.erb:32
+  Rendered collection of templates [0 times] (Duration: 0.0ms | Allocations: 25)
+  Rendered comments/_form.html.erb (Duration: 13.4ms | Allocations: 42731)
+  Rendered posts/show.html.erb within layouts/application (Duration: 26.5ms | Allocations: 53234)
+  Rendered layout layouts/application.html.erb (Duration: 30.3ms | Allocations: 56776)
+Completed 200 OK in 36ms (Views: 30.7ms | ActiveRecord: 0.6ms | Allocations: 60017)
+
+
+Started POST "/posts/6/comments" for ::1 at 2024-02-16 18:47:38 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "comment"=>{"name"=>"user1", "comment"=>"hello from user1"}, "commit"=>"Leave a reply", "post_id"=>"6"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:3:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/comments_controller.rb:4:in `create'
+  [1m[36mComment Create (1.3ms)[0m  [1m[32mINSERT INTO "comments" ("name", "comment", "created_at", "updated_at", "post_id") VALUES (?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "user1"], ["comment", "hello from user1"], ["created_at", "2024-02-16 13:17:38.324825"], ["updated_at", "2024-02-16 13:17:38.324825"], ["post_id", 6]]
+  ↳ app/controllers/comments_controller.rb:4:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/comments_controller.rb:4:in `create'
+Redirected to http://[::1]:3000/posts/6
+Completed 302 Found in 7ms (ActiveRecord: 1.6ms | Allocations: 3746)
+
+
+Started GET "/posts/6" for ::1 at 2024-02-16 18:47:38 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/views/posts/show.html.erb:31
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/views/posts/show.html.erb:32
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.7ms | Allocations: 427)
+  Rendered comments/_form.html.erb (Duration: 16.8ms | Allocations: 1361)
+  Rendered posts/show.html.erb within layouts/application (Duration: 50.7ms | Allocations: 3850)
+  Rendered layout layouts/application.html.erb (Duration: 77.2ms | Allocations: 7357)
+Completed 200 OK in 91ms (Views: 82.8ms | ActiveRecord: 0.5ms | Allocations: 8183)
+
+
+Started GET "/" for ::1 at 2024-02-16 18:47:42 +0530
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 942)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 4505)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.1ms | Allocations: 4868)
+
+
+Started GET "/search/index" for ::1 at 2024-02-16 18:47:56 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 245)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 3875)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4252)
+
+
+Started GET "/posts?q%5Btitle%5D=first+post&commit=Search%21" for ::1 at 2024-02-16 18:48:03 +0530
+Processing by PostsController#index as HTML
+  Parameters: {"q"=>{"title"=>"first post"}, "commit"=>"Search!"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 654)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 4218)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 4531)
+
+
+Started GET "/posts/new" for ::1 at 2024-02-16 18:48:13 +0530
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 4.2ms | Allocations: 1465)
+  Rendered posts/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1526)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 4902)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 5216)
+
+
+Started POST "/posts" for ::1 at 2024-02-16 18:48:24 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"title"=>"second post", "content"=>"hello from second post\r\n"}, "commit"=>"Create post"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:12:in `create'
+  [1m[36mPost Create (1.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["title", "second post"], ["content", "hello from second post\r\n"], ["created_at", "2024-02-16 13:18:24.033673"], ["updated_at", "2024-02-16 13:18:24.033673"]]
+  ↳ app/controllers/posts_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:12:in `create'
+Redirected to http://[::1]:3000/posts/7
+Completed 302 Found in 6ms (ActiveRecord: 1.4ms | Allocations: 2346)
+
+
+Started GET "/posts/7" for ::1 at 2024-02-16 18:48:24 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/views/posts/show.html.erb:31
+  [1m[36mComment Load (0.0ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/views/posts/show.html.erb:32
+  Rendered collection of templates [0 times] (Duration: 0.0ms | Allocations: 12)
+  Rendered comments/_form.html.erb (Duration: 1.4ms | Allocations: 1281)
+  Rendered posts/show.html.erb within layouts/application (Duration: 4.6ms | Allocations: 3089)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 6442)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.3ms | Allocations: 7224)
+
+
+Started POST "/posts/7/comments" for ::1 at 2024-02-16 18:48:41 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "comment"=>{"name"=>"user2", "comment"=>"hello from user2 in second post\r\n"}, "commit"=>"Leave a reply", "post_id"=>"7"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:3:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/comments_controller.rb:4:in `create'
+  [1m[36mComment Create (1.0ms)[0m  [1m[32mINSERT INTO "comments" ("name", "comment", "created_at", "updated_at", "post_id") VALUES (?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "user2"], ["comment", "hello from user2 in second post\r\n"], ["created_at", "2024-02-16 13:18:41.520510"], ["updated_at", "2024-02-16 13:18:41.520510"], ["post_id", 7]]
+  ↳ app/controllers/comments_controller.rb:4:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/comments_controller.rb:4:in `create'
+Redirected to http://[::1]:3000/posts/7
+Completed 302 Found in 7ms (ActiveRecord: 1.2ms | Allocations: 3099)
+
+
+Started GET "/posts/7" for ::1 at 2024-02-16 18:48:41 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/views/posts/show.html.erb:31
+  [1m[36mComment Load (0.0ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/views/posts/show.html.erb:32
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.2ms | Allocations: 163)
+  Rendered comments/_form.html.erb (Duration: 1.3ms | Allocations: 1274)
+  Rendered posts/show.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3284)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 6637)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.2ms | Allocations: 7417)
+
+
+Started GET "/" for ::1 at 2024-02-16 18:48:48 +0530
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 687)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 4255)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.1ms | Allocations: 4571)
+
+
+Started GET "/search/index" for ::1 at 2024-02-16 18:48:55 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 227)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 3782)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4133)
+
+
+Started GET "/posts?q%5Btitle%5D=second&commit=Search%21" for ::1 at 2024-02-16 18:48:59 +0530
+Processing by PostsController#index as HTML
+  Parameters: {"q"=>{"title"=>"second"}, "commit"=>"Search!"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 687)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 4244)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.1ms | Allocations: 4548)
+
+
+Started GET "/" for ::1 at 2024-02-16 18:49:27 +0530
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 687)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 4292)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.1ms | Allocations: 4596)
+
+
+Started GET "/search/index" for ::1 at 2024-02-16 18:54:58 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search/index"):
+  
+Started GET "/search/index" for ::1 at 2024-02-16 18:54:58 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search/index"):
+  
+Started GET "/search/" for ::1 at 2024-02-16 18:55:28 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2038)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 2119)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 5660)
+
+
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/search/index.html.erb:7
+
+Started POST "/__better_errors/eedeb0fd32fa1dcb/variables" for ::1 at 2024-02-16 18:55:28 +0530
+Started GET "/search/" for ::1 at 2024-02-16 18:58:13 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 668)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 4851)
+Completed 200 OK in 8ms (Views: 4.8ms | ActiveRecord: 1.0ms | Allocations: 8741)
+
+
+Started GET "/posts?q%5Btitle%5D=first+post&commit=Search%21" for ::1 at 2024-02-16 18:58:17 +0530
+Processing by PostsController#index as HTML
+  Parameters: {"q"=>{"title"=>"first post"}, "commit"=>"Search!"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 3873)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 7611)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.6ms | Allocations: 8159)
+
+
+Started GET "/posts?q%5Btitle%5D=first+post&commit=Search%21" for ::1 at 2024-02-16 19:02:16 +0530
+Processing by PostsController#index as HTML
+  Parameters: {"q"=>{"title"=>"first post"}, "commit"=>"Search!"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 4187)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 8348)
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 1.1ms | Allocations: 11765)
+
+
+Started GET "/posts?q%5Btitle%5D=first+post&commit=Search%21" for ::1 at 2024-02-16 19:04:21 +0530
+Processing by PostsController#index as HTML
+  Parameters: {"q"=>{"title"=>"first post"}, "commit"=>"Search!"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 4188)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 8349)
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 1.2ms | Allocations: 11801)
+
+
+Started GET "/posts?q%5Btitle%5D=first+post&commit=Search%21" for ::1 at 2024-02-16 19:05:40 +0530
+Processing by PostsController#index as HTML
+  Parameters: {"q"=>{"title"=>"first post"}, "commit"=>"Search!"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 4211)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 8445)
+Completed 200 OK in 18ms (Views: 13.7ms | ActiveRecord: 1.4ms | Allocations: 11921)
+
+
+Started GET "/" for ::1 at 2024-02-17 20:21:00 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+
+ActiveRecord::PendingMigrationError - Migrations are pending. To resolve this issue, run:
+        bin/rails db:migrate
+You have 1 pending migration:
+db/migrate/20240217144032_create_likes.rb:
+
+Started POST "/__better_errors/d53e604b7c03d6ed/variables" for ::1 at 2024-02-17 20:21:00 +0530
+Started GET "/" for ::1 at 2024-02-17 20:21:03 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+
+ActiveRecord::PendingMigrationError - Migrations are pending. To resolve this issue, run:
+        bin/rails db:migrate
+You have 1 pending migration:
+db/migrate/20240217144032_create_likes.rb:
+
+Started POST "/__better_errors/2878cc34ee70f841/variables" for ::1 at 2024-02-17 20:21:03 +0530
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateLikes (20240217144032)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "likes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "post_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_1e09b5dabf"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_87a8aac469"
+FOREIGN KEY ("post_id")
+  REFERENCES "posts" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE INDEX "index_likes_on_user_id" ON "likes" ("user_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE INDEX "index_likes_on_post_id" ON "likes" ("post_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240217144032') RETURNING "version"[0m
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2024-02-17 20:21:17 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 3736)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 7958)
+Completed 200 OK in 22ms (Views: 12.9ms | ActiveRecord: 0.8ms | Allocations: 12546)
+
+
+Started GET "/posts/5" for ::1 at 2024-02-17 20:21:20 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2774)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2849)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms | Allocations: 4403)
+
+
+
+ActionView::MissingTemplate - Missing partial likes/_like with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+Searched in:
+  * "/home/utsav/Documents/bakwaas/blog_1/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/turbo-rails-2.0.2/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/actiontext-7.1.3/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/actionmailbox-7.1.3/app/views"
+Did you mean?  active_storage/blobs/blob
+               layouts/action_text/contents/content
+               comments/comment
+               action_text/contents/content
+               comments/form
+               action_text/attachables/remote_image:
+  app/views/posts/show.html.erb:29
+
+Started POST "/__better_errors/a35333d6f974d6e5/variables" for ::1 at 2024-02-17 20:21:20 +0530
+Started GET "/posts/5" for ::1 at 2024-02-17 20:22:32 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2916)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2997)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 1.1ms | Allocations: 11724)
+
+
+
+ActionView::MissingTemplate - Missing partial likes/_like with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+Searched in:
+  * "/home/utsav/Documents/bakwaas/blog_1/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/turbo-rails-2.0.2/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/actiontext-7.1.3/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/actionmailbox-7.1.3/app/views"
+Did you mean?  active_storage/blobs/blob
+               layouts/action_text/contents/content
+               comments/comment
+               action_text/contents/content
+               comments/form
+               action_text/attachables/remote_image:
+  app/views/posts/show.html.erb:29
+
+Started POST "/__better_errors/00cba12d467f3e1b/variables" for ::1 at 2024-02-17 20:22:32 +0530
+Started GET "/posts/5" for ::1 at 2024-02-17 20:24:13 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 3034)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 3115)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 1.5ms | Allocations: 11837)
+
+
+
+ActionView::MissingTemplate - Missing partial likes/_like with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+Searched in:
+  * "/home/utsav/Documents/bakwaas/blog_1/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/turbo-rails-2.0.2/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/actiontext-7.1.3/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/actionmailbox-7.1.3/app/views"
+Did you mean?  active_storage/blobs/blob
+               layouts/action_text/contents/content
+               comments/comment
+               action_text/contents/content
+               comments/form
+               action_text/attachables/remote_image:
+  app/views/posts/show.html.erb:29
+
+Started POST "/__better_errors/af67de348ecba6ac/variables" for ::1 at 2024-02-17 20:24:13 +0530
+Started GET "/posts/6" for ::1 at 2024-02-17 20:25:43 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3037)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3118)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 1.1ms | Allocations: 11921)
+
+
+
+ActionView::MissingTemplate - Missing partial likes/_like with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+Searched in:
+  * "/home/utsav/Documents/bakwaas/blog_1/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/turbo-rails-2.0.2/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/actiontext-7.1.3/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/actionmailbox-7.1.3/app/views"
+Did you mean?  active_storage/blobs/blob
+               layouts/action_text/contents/content
+               comments/comment
+               action_text/contents/content
+               comments/form
+               action_text/attachables/remote_image:
+  app/views/posts/show.html.erb:29
+
+Started POST "/__better_errors/b26b4df462f93185/variables" for ::1 at 2024-02-17 20:25:43 +0530
+Started GET "/" for ::1 at 2024-02-18 19:44:57 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 20.5ms | Allocations: 75480)
+  Rendered layout layouts/application.html.erb (Duration: 105.9ms | Allocations: 127602)
+Completed 200 OK in 134ms (Views: 108.8ms | ActiveRecord: 1.6ms | Allocations: 151563)
+
+
+Started GET "/posts/5" for ::1 at 2024-02-18 19:45:02 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 5.2ms | Allocations: 3903)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3990)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms | Allocations: 7199)
+
+
+
+ActionView::MissingTemplate - Missing partial likes/_like with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+Searched in:
+  * "/home/utsav/Documents/bakwaas/blog_1/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/turbo-rails-2.0.2/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/actiontext-7.1.3/app/views"
+  * "/home/utsav/.gems/ruby/3.0.0/gems/actionmailbox-7.1.3/app/views"
+Did you mean?  active_storage/blobs/blob
+               layouts/action_text/contents/content
+               comments/comment
+               action_text/contents/content
+               comments/form
+               action_text/attachables/remote_image:
+  app/views/posts/show.html.erb:29
+
+Started POST "/__better_errors/98ba15609273a0dc/variables" for ::1 at 2024-02-18 19:45:02 +0530
+Started GET "/posts/5" for ::1 at 2024-02-18 19:55:11 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered likes/_like.html.erb (Duration: 40.6ms | Allocations: 82833)
+  Rendered likes/_like.html.erb (Duration: 41.0ms | Allocations: 82907)
+  Rendered likes/_like.html.erb (Duration: 41.1ms | Allocations: 82967)
+  Rendered likes/_like.html.erb (Duration: 41.2ms | Allocations: 83027)
+  Rendered likes/_like.html.erb (Duration: 41.2ms | Allocations: 83087)
+  Rendered likes/_like.html.erb (Duration: 41.3ms | Allocations: 83147)
+  Rendered likes/_like.html.erb (Duration: 41.4ms | Allocations: 83207)
+  Rendered likes/_like.html.erb (Duration: 41.5ms | Allocations: 83267)
+  Rendered likes/_like.html.erb (Duration: 41.5ms | Allocations: 83327)
+  Rendered likes/_like.html.erb (Duration: 41.6ms | Allocations: 83387)
+  Rendered likes/_like.html.erb (Duration: 41.7ms | Allocations: 83447)
+  Rendered likes/_like.html.erb (Duration: 41.8ms | Allocations: 83507)
+  Rendered likes/_like.html.erb (Duration: 41.8ms | Allocations: 83567)
+  Rendered likes/_like.html.erb (Duration: 41.9ms | Allocations: 83627)
+  Rendered likes/_like.html.erb (Duration: 42.0ms | Allocations: 83687)
+  Rendered likes/_like.html.erb (Duration: 42.1ms | Allocations: 83747)
+  Rendered likes/_like.html.erb (Duration: 42.1ms | Allocations: 83807)
+  Rendered likes/_like.html.erb (Duration: 42.2ms | Allocations: 83867)
+  Rendered likes/_like.html.erb (Duration: 42.3ms | Allocations: 83927)
+  Rendered likes/_like.html.erb (Duration: 42.3ms | Allocations: 83987)
+  Rendered likes/_like.html.erb (Duration: 42.4ms | Allocations: 84047)
+  Rendered likes/_like.html.erb (Duration: 42.5ms | Allocations: 84107)
+  Rendered likes/_like.html.erb (Duration: 42.5ms | Allocations: 84167)
+  Rendered likes/_like.html.erb (Duration: 42.6ms | Allocations: 84227)
+  Rendered likes/_like.html.erb (Duration: 42.7ms | Allocations: 84287)
+  Rendered likes/_like.html.erb (Duration: 42.8ms | Allocations: 84347)
+  Rendered likes/_like.html.erb (Duration: 42.8ms | Allocations: 84407)
+  Rendered likes/_like.html.erb (Duration: 42.9ms | Allocations: 84467)
+  Rendered likes/_like.html.erb (Duration: 43.0ms | Allocations: 84527)
+  Rendered likes/_like.html.erb (Duration: 43.0ms | Allocations: 84587)
+  Rendered likes/_like.html.erb (Duration: 43.1ms | Allocations: 84647)
+  Rendered likes/_like.html.erb (Duration: 43.2ms | Allocations: 84707)
+  Rendered likes/_like.html.erb (Duration: 43.3ms | Allocations: 84767)
+  Rendered likes/_like.html.erb (Duration: 43.3ms | Allocations: 84827)
+  Rendered likes/_like.html.erb (Duration: 43.4ms | Allocations: 84887)
+  Rendered likes/_like.html.erb (Duration: 43.4ms | Allocations: 84947)
+  Rendered likes/_like.html.erb (Duration: 43.5ms | Allocations: 85007)
+  Rendered likes/_like.html.erb (Duration: 43.6ms | Allocations: 85067)
+  Rendered likes/_like.html.erb (Duration: 43.7ms | Allocations: 85127)
+  Rendered likes/_like.html.erb (Duration: 43.7ms | Allocations: 85187)
+  Rendered likes/_like.html.erb (Duration: 43.8ms | Allocations: 85247)
+  Rendered likes/_like.html.erb (Duration: 43.9ms | Allocations: 85307)
+  Rendered likes/_like.html.erb (Duration: 43.9ms | Allocations: 85367)
+  Rendered likes/_like.html.erb (Duration: 44.0ms | Allocations: 85427)
+  Rendered likes/_like.html.erb (Duration: 44.1ms | Allocations: 85487)
+  Rendered likes/_like.html.erb (Duration: 44.2ms | Allocations: 85547)
+  Rendered likes/_like.html.erb (Duration: 44.2ms | Allocations: 85607)
+  Rendered likes/_like.html.erb (Duration: 44.3ms | Allocations: 85667)
+  Rendered likes/_like.html.erb (Duration: 44.4ms | Allocations: 85727)
+  Rendered likes/_like.html.erb (Duration: 44.4ms | Allocations: 85787)
+  Rendered likes/_like.html.erb (Duration: 44.5ms | Allocations: 85847)
+  Rendered likes/_like.html.erb (Duration: 44.6ms | Allocations: 85907)
+  Rendered likes/_like.html.erb (Duration: 44.7ms | Allocations: 85967)
+  Rendered likes/_like.html.erb (Duration: 44.8ms | Allocations: 86027)
+  Rendered likes/_like.html.erb (Duration: 44.9ms | Allocations: 86087)
+  Rendered likes/_like.html.erb (Duration: 44.9ms | Allocations: 86147)
+  Rendered likes/_like.html.erb (Duration: 45.0ms | Allocations: 86207)
+  Rendered likes/_like.html.erb (Duration: 45.1ms | Allocations: 86267)
+  Rendered likes/_like.html.erb (Duration: 45.1ms | Allocations: 86327)
+  Rendered likes/_like.html.erb (Duration: 45.2ms | Allocations: 86387)
+  Rendered likes/_like.html.erb (Duration: 45.3ms | Allocations: 86447)
+  Rendered likes/_like.html.erb (Duration: 45.4ms | Allocations: 86507)
+  Rendered likes/_like.html.erb (Duration: 45.4ms | Allocations: 86567)
+  Rendered likes/_like.html.erb (Duration: 45.5ms | Allocations: 86627)
+  Rendered likes/_like.html.erb (Duration: 45.6ms | Allocations: 86687)
+  Rendered likes/_like.html.erb (Duration: 45.6ms | Allocations: 86747)
+  Rendered likes/_like.html.erb (Duration: 45.7ms | Allocations: 86807)
+  Rendered likes/_like.html.erb (Duration: 45.8ms | Allocations: 86867)
+  Rendered likes/_like.html.erb (Duration: 45.8ms | Allocations: 86927)
+  Rendered likes/_like.html.erb (Duration: 45.9ms | Allocations: 86987)
+  Rendered likes/_like.html.erb (Duration: 46.0ms | Allocations: 87047)
+  Rendered likes/_like.html.erb (Duration: 46.0ms | Allocations: 87107)
+  Rendered likes/_like.html.erb (Duration: 46.1ms | Allocations: 87167)
+  Rendered likes/_like.html.erb (Duration: 46.2ms | Allocations: 87227)
+  Rendered likes/_like.html.erb (Duration: 46.2ms | Allocations: 87287)
+  Rendered likes/_like.html.erb (Duration: 46.3ms | Allocations: 87347)
+  Rendered likes/_like.html.erb (Duration: 46.4ms | Allocations: 87407)
+  Rendered likes/_like.html.erb (Duration: 46.5ms | Allocations: 87467)
+  Rendered likes/_like.html.erb (Duration: 46.5ms | Allocations: 87527)
+  Rendered likes/_like.html.erb (Duration: 46.6ms | Allocations: 87587)
+  Rendered likes/_like.html.erb (Duration: 46.7ms | Allocations: 87647)
+  Rendered likes/_like.html.erb (Duration: 46.7ms | Allocations: 87707)
+  Rendered likes/_like.html.erb (Duration: 46.8ms | Allocations: 87767)
+  Rendered likes/_like.html.erb (Duration: 46.9ms | Allocations: 87827)
+  Rendered likes/_like.html.erb (Duration: 46.9ms | Allocations: 87887)
+  Rendered likes/_like.html.erb (Duration: 47.0ms | Allocations: 87947)
+  Rendered likes/_like.html.erb (Duration: 47.1ms | Allocations: 88007)
+  Rendered likes/_like.html.erb (Duration: 47.1ms | Allocations: 88067)
+  Rendered likes/_like.html.erb (Duration: 47.2ms | Allocations: 88127)
+  Rendered likes/_like.html.erb (Duration: 47.3ms | Allocations: 88187)
+  Rendered likes/_like.html.erb (Duration: 47.3ms | Allocations: 88247)
+  Rendered likes/_like.html.erb (Duration: 47.4ms | Allocations: 88307)
+  Rendered likes/_like.html.erb (Duration: 47.5ms | Allocations: 88367)
+  Rendered likes/_like.html.erb (Duration: 47.6ms | Allocations: 88427)
+  Rendered likes/_like.html.erb (Duration: 47.6ms | Allocations: 88487)
+  Rendered likes/_like.html.erb (Duration: 47.7ms | Allocations: 88547)
+  Rendered likes/_like.html.erb (Duration: 47.8ms | Allocations: 88607)
+  Rendered likes/_like.html.erb (Duration: 47.9ms | Allocations: 88667)
+  Rendered likes/_like.html.erb (Duration: 47.9ms | Allocations: 88727)
+  Rendered likes/_like.html.erb (Duration: 48.0ms | Allocations: 88787)
+  Rendered likes/_like.html.erb (Duration: 48.1ms | Allocations: 88847)
+  Rendered likes/_like.html.erb (Duration: 48.1ms | Allocations: 88907)
+  Rendered likes/_like.html.erb (Duration: 48.2ms | Allocations: 88967)
+  Rendered likes/_like.html.erb (Duration: 48.3ms | Allocations: 89027)
+  Rendered likes/_like.html.erb (Duration: 48.3ms | Allocations: 89087)
+  Rendered likes/_like.html.erb (Duration: 48.4ms | Allocations: 89147)
+  Rendered likes/_like.html.erb (Duration: 48.5ms | Allocations: 89207)
+  Rendered likes/_like.html.erb (Duration: 48.5ms | Allocations: 89267)
+  Rendered likes/_like.html.erb (Duration: 48.6ms | Allocations: 89327)
+  Rendered likes/_like.html.erb (Duration: 48.7ms | Allocations: 89387)
+  Rendered likes/_like.html.erb (Duration: 48.7ms | Allocations: 89447)
+  Rendered likes/_like.html.erb (Duration: 48.8ms | Allocations: 89507)
+  Rendered likes/_like.html.erb (Duration: 48.9ms | Allocations: 89567)
+  Rendered likes/_like.html.erb (Duration: 48.9ms | Allocations: 89627)
+  Rendered likes/_like.html.erb (Duration: 49.0ms | Allocations: 89687)
+  Rendered likes/_like.html.erb (Duration: 49.1ms | Allocations: 89747)
+  Rendered likes/_like.html.erb (Duration: 49.2ms | Allocations: 89807)
+  Rendered likes/_like.html.erb (Duration: 49.2ms | Allocations: 89867)
+  Rendered likes/_like.html.erb (Duration: 49.3ms | Allocations: 89927)
+  Rendered likes/_like.html.erb (Duration: 49.4ms | Allocations: 89987)
+  Rendered likes/_like.html.erb (Duration: 49.4ms | Allocations: 90047)
+  Rendered likes/_like.html.erb (Duration: 49.6ms | Allocations: 90107)
+  Rendered likes/_like.html.erb (Duration: 49.7ms | Allocations: 90167)
+  Rendered likes/_like.html.erb (Duration: 49.7ms | Allocations: 90227)
+  Rendered likes/_like.html.erb (Duration: 49.8ms | Allocations: 90287)
+  Rendered likes/_like.html.erb (Duration: 49.9ms | Allocations: 90347)
+  Rendered likes/_like.html.erb (Duration: 49.9ms | Allocations: 90407)
+  Rendered likes/_like.html.erb (Duration: 50.0ms | Allocations: 90467)
+  Rendered likes/_like.html.erb (Duration: 50.1ms | Allocations: 90527)
+  Rendered likes/_like.html.erb (Duration: 50.1ms | Allocations: 90587)
+  Rendered likes/_like.html.erb (Duration: 50.2ms | Allocations: 90647)
+  Rendered likes/_like.html.erb (Duration: 50.3ms | Allocations: 90707)
+  Rendered likes/_like.html.erb (Duration: 50.3ms | Allocations: 90767)
+  Rendered likes/_like.html.erb (Duration: 50.4ms | Allocations: 90827)
+  Rendered likes/_like.html.erb (Duration: 50.5ms | Allocations: 90887)
+  Rendered likes/_like.html.erb (Duration: 50.5ms | Allocations: 90947)
+  Rendered likes/_like.html.erb (Duration: 50.6ms | Allocations: 91007)
+  Rendered likes/_like.html.erb (Duration: 50.7ms | Allocations: 91067)
+  Rendered likes/_like.html.erb (Duration: 50.7ms | Allocations: 91127)
+  Rendered likes/_like.html.erb (Duration: 50.8ms | Allocations: 91187)
+  Rendered likes/_like.html.erb (Duration: 50.9ms | Allocations: 91247)
+  Rendered likes/_like.html.erb (Duration: 50.9ms | Allocations: 91307)
+  Rendered likes/_like.html.erb (Duration: 51.0ms | Allocations: 91367)
+  Rendered likes/_like.html.erb (Duration: 51.1ms | Allocations: 91427)
+  Rendered likes/_like.html.erb (Duration: 51.1ms | Allocations: 91487)
+  Rendered likes/_like.html.erb (Duration: 51.2ms | Allocations: 91547)
+  Rendered likes/_like.html.erb (Duration: 51.3ms | Allocations: 91607)
+  Rendered likes/_like.html.erb (Duration: 51.3ms | Allocations: 91667)
+  Rendered likes/_like.html.erb (Duration: 51.4ms | Allocations: 91727)
+  Rendered likes/_like.html.erb (Duration: 51.5ms | Allocations: 91787)
+  Rendered likes/_like.html.erb (Duration: 51.5ms | Allocations: 91847)
+  Rendered likes/_like.html.erb (Duration: 51.6ms | Allocations: 91907)
+  Rendered likes/_like.html.erb (Duration: 51.7ms | Allocations: 91967)
+  Rendered likes/_like.html.erb (Duration: 51.7ms | Allocations: 92027)
+  Rendered likes/_like.html.erb (Duration: 51.8ms | Allocations: 92087)
+  Rendered likes/_like.html.erb (Duration: 51.8ms | Allocations: 92147)
+  Rendered likes/_like.html.erb (Duration: 51.9ms | Allocations: 92207)
+  Rendered likes/_like.html.erb (Duration: 51.9ms | Allocations: 92267)
+  Rendered likes/_like.html.erb (Duration: 52.0ms | Allocations: 92327)
+  Rendered likes/_like.html.erb (Duration: 52.0ms | Allocations: 92387)
+  Rendered likes/_like.html.erb (Duration: 52.1ms | Allocations: 92447)
+  Rendered likes/_like.html.erb (Duration: 52.1ms | Allocations: 92507)
+  Rendered likes/_like.html.erb (Duration: 52.2ms | Allocations: 92567)
+  Rendered likes/_like.html.erb (Duration: 52.2ms | Allocations: 92627)
+  Rendered likes/_like.html.erb (Duration: 52.3ms | Allocations: 92687)
+  Rendered likes/_like.html.erb (Duration: 52.3ms | Allocations: 92747)
+  Rendered likes/_like.html.erb (Duration: 52.4ms | Allocations: 92807)
+  Rendered likes/_like.html.erb (Duration: 52.4ms | Allocations: 92867)
+  Rendered likes/_like.html.erb (Duration: 52.4ms | Allocations: 92927)
+  Rendered likes/_like.html.erb (Duration: 52.5ms | Allocations: 92987)
+  Rendered likes/_like.html.erb (Duration: 52.5ms | Allocations: 93047)
+  Rendered likes/_like.html.erb (Duration: 52.6ms | Allocations: 93107)
+  Rendered likes/_like.html.erb (Duration: 52.6ms | Allocations: 93167)
+  Rendered likes/_like.html.erb (Duration: 52.7ms | Allocations: 93227)
+  Rendered likes/_like.html.erb (Duration: 52.7ms | Allocations: 93287)
+  Rendered likes/_like.html.erb (Duration: 52.8ms | Allocations: 93347)
+  Rendered likes/_like.html.erb (Duration: 52.9ms | Allocations: 93407)
+  Rendered likes/_like.html.erb (Duration: 52.9ms | Allocations: 93467)
+  Rendered likes/_like.html.erb (Duration: 53.0ms | Allocations: 93527)
+  Rendered likes/_like.html.erb (Duration: 53.0ms | Allocations: 93587)
+  Rendered likes/_like.html.erb (Duration: 53.1ms | Allocations: 93647)
+  Rendered likes/_like.html.erb (Duration: 53.2ms | Allocations: 93707)
+  Rendered likes/_like.html.erb (Duration: 53.2ms | Allocations: 93767)
+  Rendered likes/_like.html.erb (Duration: 53.3ms | Allocations: 93827)
+  Rendered likes/_like.html.erb (Duration: 53.4ms | Allocations: 93887)
+  Rendered likes/_like.html.erb (Duration: 53.4ms | Allocations: 93947)
+  Rendered likes/_like.html.erb (Duration: 53.5ms | Allocations: 94007)
+  Rendered likes/_like.html.erb (Duration: 53.6ms | Allocations: 94067)
+  Rendered likes/_like.html.erb (Duration: 53.7ms | Allocations: 94127)
+  Rendered likes/_like.html.erb (Duration: 53.8ms | Allocations: 94187)
+  Rendered likes/_like.html.erb (Duration: 53.8ms | Allocations: 94247)
+  Rendered likes/_like.html.erb (Duration: 53.9ms | Allocations: 94307)
+  Rendered likes/_like.html.erb (Duration: 54.0ms | Allocations: 94367)
+  Rendered likes/_like.html.erb (Duration: 54.1ms | Allocations: 94427)
+  Rendered likes/_like.html.erb (Duration: 54.2ms | Allocations: 94487)
+  Rendered likes/_like.html.erb (Duration: 54.3ms | Allocations: 94547)
+  Rendered likes/_like.html.erb (Duration: 54.4ms | Allocations: 94607)
+  Rendered likes/_like.html.erb (Duration: 54.5ms | Allocations: 94667)
+  Rendered likes/_like.html.erb (Duration: 54.6ms | Allocations: 94727)
+  Rendered likes/_like.html.erb (Duration: 54.7ms | Allocations: 94787)
+  Rendered likes/_like.html.erb (Duration: 54.8ms | Allocations: 94847)
+  Rendered likes/_like.html.erb (Duration: 54.9ms | Allocations: 94907)
+  Rendered likes/_like.html.erb (Duration: 55.0ms | Allocations: 94967)
+  Rendered likes/_like.html.erb (Duration: 55.1ms | Allocations: 95027)
+  Rendered likes/_like.html.erb (Duration: 55.2ms | Allocations: 95087)
+  Rendered likes/_like.html.erb (Duration: 55.4ms | Allocations: 95147)
+  Rendered likes/_like.html.erb (Duration: 55.5ms | Allocations: 95207)
+  Rendered likes/_like.html.erb (Duration: 55.6ms | Allocations: 95267)
+  Rendered likes/_like.html.erb (Duration: 55.7ms | Allocations: 95327)
+  Rendered likes/_like.html.erb (Duration: 55.9ms | Allocations: 95387)
+  Rendered likes/_like.html.erb (Duration: 56.1ms | Allocations: 95447)
+  Rendered likes/_like.html.erb (Duration: 56.2ms | Allocations: 95507)
+  Rendered likes/_like.html.erb (Duration: 56.3ms | Allocations: 95567)
+  Rendered likes/_like.html.erb (Duration: 56.4ms | Allocations: 95627)
+  Rendered likes/_like.html.erb (Duration: 56.6ms | Allocations: 95687)
+  Rendered likes/_like.html.erb (Duration: 56.7ms | Allocations: 95747)
+  Rendered likes/_like.html.erb (Duration: 56.7ms | Allocations: 95807)
+  Rendered likes/_like.html.erb (Duration: 56.8ms | Allocations: 95867)
+  Rendered likes/_like.html.erb (Duration: 56.9ms | Allocations: 95927)
+  Rendered likes/_like.html.erb (Duration: 57.0ms | Allocations: 95987)
+  Rendered likes/_like.html.erb (Duration: 57.0ms | Allocations: 96047)
+  Rendered likes/_like.html.erb (Duration: 57.1ms | Allocations: 96107)
+  Rendered likes/_like.html.erb (Duration: 57.2ms | Allocations: 96167)
+  Rendered likes/_like.html.erb (Duration: 57.2ms | Allocations: 96227)
+  Rendered likes/_like.html.erb (Duration: 57.3ms | Allocations: 96287)
+  Rendered likes/_like.html.erb (Duration: 57.4ms | Allocations: 96347)
+  Rendered likes/_like.html.erb (Duration: 57.5ms | Allocations: 96407)
+  Rendered likes/_like.html.erb (Duration: 57.5ms | Allocations: 96467)
+  Rendered likes/_like.html.erb (Duration: 57.6ms | Allocations: 96527)
+  Rendered likes/_like.html.erb (Duration: 57.7ms | Allocations: 96587)
+  Rendered likes/_like.html.erb (Duration: 57.7ms | Allocations: 96647)
+  Rendered likes/_like.html.erb (Duration: 57.8ms | Allocations: 96707)
+  Rendered likes/_like.html.erb (Duration: 57.9ms | Allocations: 96767)
+  Rendered likes/_like.html.erb (Duration: 58.0ms | Allocations: 96827)
+  Rendered likes/_like.html.erb (Duration: 58.0ms | Allocations: 96887)
+  Rendered likes/_like.html.erb (Duration: 58.1ms | Allocations: 96947)
+  Rendered likes/_like.html.erb (Duration: 58.2ms | Allocations: 97007)
+  Rendered likes/_like.html.erb (Duration: 58.3ms | Allocations: 97067)
+  Rendered likes/_like.html.erb (Duration: 58.3ms | Allocations: 97127)
+  Rendered likes/_like.html.erb (Duration: 58.4ms | Allocations: 97187)
+  Rendered likes/_like.html.erb (Duration: 58.4ms | Allocations: 97247)
+  Rendered likes/_like.html.erb (Duration: 58.5ms | Allocations: 97307)
+  Rendered likes/_like.html.erb (Duration: 58.6ms | Allocations: 97367)
+  Rendered likes/_like.html.erb (Duration: 58.6ms | Allocations: 97427)
+  Rendered likes/_like.html.erb (Duration: 58.7ms | Allocations: 97487)
+  Rendered likes/_like.html.erb (Duration: 58.8ms | Allocations: 97547)
+  Rendered likes/_like.html.erb (Duration: 58.8ms | Allocations: 97607)
+  Rendered likes/_like.html.erb (Duration: 58.9ms | Allocations: 97667)
+  Rendered likes/_like.html.erb (Duration: 59.0ms | Allocations: 97727)
+  Rendered likes/_like.html.erb (Duration: 59.0ms | Allocations: 97787)
+  Rendered likes/_like.html.erb (Duration: 59.1ms | Allocations: 97847)
+  Rendered likes/_like.html.erb (Duration: 59.2ms | Allocations: 97907)
+  Rendered likes/_like.html.erb (Duration: 59.2ms | Allocations: 97967)
+  Rendered likes/_like.html.erb (Duration: 59.3ms | Allocations: 98027)
+  Rendered likes/_like.html.erb (Duration: 59.4ms | Allocations: 98087)
+  Rendered likes/_like.html.erb (Duration: 59.5ms | Allocations: 98147)
+  Rendered likes/_like.html.erb (Duration: 59.6ms | Allocations: 98207)
+  Rendered likes/_like.html.erb (Duration: 59.6ms | Allocations: 98267)
+  Rendered likes/_like.html.erb (Duration: 59.7ms | Allocations: 98327)
+  Rendered likes/_like.html.erb (Duration: 59.8ms | Allocations: 98387)
+  Rendered likes/_like.html.erb (Duration: 59.9ms | Allocations: 98447)
+  Rendered likes/_like.html.erb (Duration: 59.9ms | Allocations: 98507)
+  Rendered likes/_like.html.erb (Duration: 60.0ms | Allocations: 98567)
+  Rendered likes/_like.html.erb (Duration: 60.1ms | Allocations: 98627)
+  Rendered likes/_like.html.erb (Duration: 60.1ms | Allocations: 98687)
+  Rendered likes/_like.html.erb (Duration: 60.2ms | Allocations: 98747)
+  Rendered likes/_like.html.erb (Duration: 60.3ms | Allocations: 98807)
+  Rendered likes/_like.html.erb (Duration: 60.3ms | Allocations: 98867)
+  Rendered likes/_like.html.erb (Duration: 60.4ms | Allocations: 98927)
+  Rendered likes/_like.html.erb (Duration: 60.6ms | Allocations: 98987)
+  Rendered likes/_like.html.erb (Duration: 60.6ms | Allocations: 99047)
+  Rendered likes/_like.html.erb (Duration: 60.7ms | Allocations: 99107)
+  Rendered likes/_like.html.erb (Duration: 60.8ms | Allocations: 99167)
+  Rendered likes/_like.html.erb (Duration: 60.8ms | Allocations: 99227)
+  Rendered likes/_like.html.erb (Duration: 60.9ms | Allocations: 99287)
+  Rendered likes/_like.html.erb (Duration: 60.9ms | Allocations: 99347)
+  Rendered likes/_like.html.erb (Duration: 61.0ms | Allocations: 99407)
+  Rendered likes/_like.html.erb (Duration: 61.1ms | Allocations: 99467)
+  Rendered likes/_like.html.erb (Duration: 61.1ms | Allocations: 99527)
+  Rendered likes/_like.html.erb (Duration: 61.2ms | Allocations: 99587)
+  Rendered likes/_like.html.erb (Duration: 61.2ms | Allocations: 99647)
+  Rendered likes/_like.html.erb (Duration: 61.3ms | Allocations: 99707)
+  Rendered likes/_like.html.erb (Duration: 61.4ms | Allocations: 99767)
+  Rendered likes/_like.html.erb (Duration: 61.4ms | Allocations: 99827)
+  Rendered likes/_like.html.erb (Duration: 61.5ms | Allocations: 99887)
+  Rendered likes/_like.html.erb (Duration: 61.6ms | Allocations: 99947)
+  Rendered likes/_like.html.erb (Duration: 61.6ms | Allocations: 100007)
+  Rendered likes/_like.html.erb (Duration: 61.7ms | Allocations: 100067)
+  Rendered likes/_like.html.erb (Duration: 61.8ms | Allocations: 100127)
+  Rendered likes/_like.html.erb (Duration: 61.8ms | Allocations: 100187)
+  Rendered likes/_like.html.erb (Duration: 61.9ms | Allocations: 100247)
+  Rendered likes/_like.html.erb (Duration: 62.0ms | Allocations: 100307)
+  Rendered likes/_like.html.erb (Duration: 62.0ms | Allocations: 100367)
+  Rendered likes/_like.html.erb (Duration: 62.1ms | Allocations: 100427)
+  Rendered likes/_like.html.erb (Duration: 62.2ms | Allocations: 100487)
+  Rendered likes/_like.html.erb (Duration: 62.3ms | Allocations: 100547)
+  Rendered likes/_like.html.erb (Duration: 62.3ms | Allocations: 100607)
+  Rendered likes/_like.html.erb (Duration: 62.4ms | Allocations: 100667)
+  Rendered likes/_like.html.erb (Duration: 62.4ms | Allocations: 100727)
+  Rendered likes/_like.html.erb (Duration: 62.5ms | Allocations: 100787)
+  Rendered likes/_like.html.erb (Duration: 62.6ms | Allocations: 100847)
+  Rendered likes/_like.html.erb (Duration: 62.6ms | Allocations: 100907)
+  Rendered likes/_like.html.erb (Duration: 62.7ms | Allocations: 100967)
+  Rendered likes/_like.html.erb (Duration: 62.8ms | Allocations: 101027)
+  Rendered likes/_like.html.erb (Duration: 62.8ms | Allocations: 101087)
+  Rendered likes/_like.html.erb (Duration: 62.9ms | Allocations: 101147)
+  Rendered likes/_like.html.erb (Duration: 63.0ms | Allocations: 101207)
+  Rendered likes/_like.html.erb (Duration: 63.0ms | Allocations: 101267)
+  Rendered likes/_like.html.erb (Duration: 63.1ms | Allocations: 101327)
+  Rendered likes/_like.html.erb (Duration: 63.1ms | Allocations: 101387)
+  Rendered likes/_like.html.erb (Duration: 63.2ms | Allocations: 101447)
+  Rendered likes/_like.html.erb (Duration: 63.3ms | Allocations: 101507)
+  Rendered likes/_like.html.erb (Duration: 63.3ms | Allocations: 101567)
+  Rendered likes/_like.html.erb (Duration: 63.4ms | Allocations: 101627)
+  Rendered likes/_like.html.erb (Duration: 63.5ms | Allocations: 101687)
+  Rendered likes/_like.html.erb (Duration: 63.5ms | Allocations: 101747)
+  Rendered likes/_like.html.erb (Duration: 63.6ms | Allocations: 101807)
+  Rendered likes/_like.html.erb (Duration: 63.7ms | Allocations: 101867)
+  Rendered likes/_like.html.erb (Duration: 63.7ms | Allocations: 101927)
+  Rendered likes/_like.html.erb (Duration: 63.8ms | Allocations: 101987)
+  Rendered likes/_like.html.erb (Duration: 63.8ms | Allocations: 102047)
+  Rendered likes/_like.html.erb (Duration: 63.9ms | Allocations: 102107)
+  Rendered likes/_like.html.erb (Duration: 64.0ms | Allocations: 102167)
+  Rendered likes/_like.html.erb (Duration: 64.0ms | Allocations: 102227)
+  Rendered likes/_like.html.erb (Duration: 64.1ms | Allocations: 102287)
+  Rendered likes/_like.html.erb (Duration: 64.2ms | Allocations: 102347)
+  Rendered likes/_like.html.erb (Duration: 64.2ms | Allocations: 102407)
+  Rendered likes/_like.html.erb (Duration: 64.3ms | Allocations: 102467)
+  Rendered likes/_like.html.erb (Duration: 64.3ms | Allocations: 102527)
+  Rendered likes/_like.html.erb (Duration: 64.4ms | Allocations: 102587)
+  Rendered likes/_like.html.erb (Duration: 64.5ms | Allocations: 102647)
+  Rendered likes/_like.html.erb (Duration: 64.6ms | Allocations: 102707)
+  Rendered likes/_like.html.erb (Duration: 64.6ms | Allocations: 102767)
+  Rendered likes/_like.html.erb (Duration: 64.7ms | Allocations: 102827)
+  Rendered likes/_like.html.erb (Duration: 64.7ms | Allocations: 102887)
+  Rendered likes/_like.html.erb (Duration: 64.8ms | Allocations: 102947)
+  Rendered likes/_like.html.erb (Duration: 64.9ms | Allocations: 103007)
+  Rendered likes/_like.html.erb (Duration: 64.9ms | Allocations: 103067)
+  Rendered likes/_like.html.erb (Duration: 65.0ms | Allocations: 103127)
+  Rendered likes/_like.html.erb (Duration: 65.1ms | Allocations: 103187)
+  Rendered likes/_like.html.erb (Duration: 65.1ms | Allocations: 103247)
+  Rendered likes/_like.html.erb (Duration: 65.2ms | Allocations: 103307)
+  Rendered likes/_like.html.erb (Duration: 65.3ms | Allocations: 103367)
+  Rendered likes/_like.html.erb (Duration: 65.3ms | Allocations: 103427)
+  Rendered likes/_like.html.erb (Duration: 65.4ms | Allocations: 103487)
+  Rendered likes/_like.html.erb (Duration: 65.5ms | Allocations: 103547)
+  Rendered likes/_like.html.erb (Duration: 65.6ms | Allocations: 103607)
+  Rendered likes/_like.html.erb (Duration: 65.6ms | Allocations: 103667)
+  Rendered likes/_like.html.erb (Duration: 65.7ms | Allocations: 103727)
+  Rendered likes/_like.html.erb (Duration: 65.8ms | Allocations: 103787)
+  Rendered likes/_like.html.erb (Duration: 65.8ms | Allocations: 103847)
+  Rendered likes/_like.html.erb (Duration: 65.9ms | Allocations: 103907)
+  Rendered likes/_like.html.erb (Duration: 66.0ms | Allocations: 103967)
+  Rendered likes/_like.html.erb (Duration: 66.0ms | Allocations: 104027)
+  Rendered likes/_like.html.erb (Duration: 66.1ms | Allocations: 104087)
+  Rendered likes/_like.html.erb (Duration: 66.1ms | Allocations: 104147)
+  Rendered likes/_like.html.erb (Duration: 66.2ms | Allocations: 104207)
+  Rendered likes/_like.html.erb (Duration: 66.3ms | Allocations: 104267)
+  Rendered likes/_like.html.erb (Duration: 66.3ms | Allocations: 104327)
+  Rendered likes/_like.html.erb (Duration: 66.4ms | Allocations: 104387)
+  Rendered likes/_like.html.erb (Duration: 66.5ms | Allocations: 104447)
+  Rendered likes/_like.html.erb (Duration: 66.5ms | Allocations: 104507)
+  Rendered likes/_like.html.erb (Duration: 66.6ms | Allocations: 104567)
+  Rendered likes/_like.html.erb (Duration: 66.7ms | Allocations: 104627)
+  Rendered likes/_like.html.erb (Duration: 66.7ms | Allocations: 104687)
+  Rendered likes/_like.html.erb (Duration: 66.8ms | Allocations: 104747)
+  Rendered likes/_like.html.erb (Duration: 66.9ms | Allocations: 104807)
+  Rendered likes/_like.html.erb (Duration: 66.9ms | Allocations: 104867)
+  Rendered likes/_like.html.erb (Duration: 67.0ms | Allocations: 104927)
+  Rendered likes/_like.html.erb (Duration: 67.0ms | Allocations: 104987)
+  Rendered likes/_like.html.erb (Duration: 67.1ms | Allocations: 105047)
+  Rendered likes/_like.html.erb (Duration: 67.2ms | Allocations: 105107)
+  Rendered likes/_like.html.erb (Duration: 67.2ms | Allocations: 105167)
+  Rendered likes/_like.html.erb (Duration: 67.3ms | Allocations: 105227)
+  Rendered likes/_like.html.erb (Duration: 67.4ms | Allocations: 105287)
+  Rendered likes/_like.html.erb (Duration: 67.4ms | Allocations: 105347)
+  Rendered likes/_like.html.erb (Duration: 67.5ms | Allocations: 105407)
+  Rendered likes/_like.html.erb (Duration: 67.6ms | Allocations: 105467)
+  Rendered likes/_like.html.erb (Duration: 67.6ms | Allocations: 105527)
+  Rendered likes/_like.html.erb (Duration: 67.7ms | Allocations: 105587)
+  Rendered likes/_like.html.erb (Duration: 67.8ms | Allocations: 105647)
+  Rendered likes/_like.html.erb (Duration: 67.8ms | Allocations: 105707)
+  Rendered likes/_like.html.erb (Duration: 67.9ms | Allocations: 105767)
+  Rendered likes/_like.html.erb (Duration: 68.0ms | Allocations: 105827)
+  Rendered likes/_like.html.erb (Duration: 68.0ms | Allocations: 105887)
+  Rendered likes/_like.html.erb (Duration: 68.1ms | Allocations: 105947)
+  Rendered likes/_like.html.erb (Duration: 68.1ms | Allocations: 106007)
+  Rendered likes/_like.html.erb (Duration: 68.2ms | Allocations: 106067)
+  Rendered likes/_like.html.erb (Duration: 68.3ms | Allocations: 106127)
+  Rendered likes/_like.html.erb (Duration: 68.3ms | Allocations: 106187)
+  Rendered likes/_like.html.erb (Duration: 68.4ms | Allocations: 106247)
+  Rendered likes/_like.html.erb (Duration: 68.4ms | Allocations: 106307)
+  Rendered likes/_like.html.erb (Duration: 68.5ms | Allocations: 106367)
+  Rendered likes/_like.html.erb (Duration: 68.6ms | Allocations: 106427)
+  Rendered likes/_like.html.erb (Duration: 68.6ms | Allocations: 106487)
+  Rendered likes/_like.html.erb (Duration: 68.7ms | Allocations: 106547)
+  Rendered likes/_like.html.erb (Duration: 68.8ms | Allocations: 106607)
+  Rendered likes/_like.html.erb (Duration: 68.8ms | Allocations: 106667)
+  Rendered likes/_like.html.erb (Duration: 68.9ms | Allocations: 106727)
+  Rendered likes/_like.html.erb (Duration: 69.0ms | Allocations: 106787)
+  Rendered likes/_like.html.erb (Duration: 69.0ms | Allocations: 106847)
+  Rendered likes/_like.html.erb (Duration: 69.1ms | Allocations: 106907)
+  Rendered likes/_like.html.erb (Duration: 69.1ms | Allocations: 106967)
+  Rendered likes/_like.html.erb (Duration: 69.2ms | Allocations: 107027)
+  Rendered likes/_like.html.erb (Duration: 69.3ms | Allocations: 107087)
+  Rendered likes/_like.html.erb (Duration: 69.3ms | Allocations: 107147)
+  Rendered likes/_like.html.erb (Duration: 69.4ms | Allocations: 107207)
+  Rendered likes/_like.html.erb (Duration: 69.4ms | Allocations: 107267)
+  Rendered likes/_like.html.erb (Duration: 69.5ms | Allocations: 107327)
+  Rendered likes/_like.html.erb (Duration: 69.6ms | Allocations: 107387)
+  Rendered likes/_like.html.erb (Duration: 69.6ms | Allocations: 107447)
+  Rendered likes/_like.html.erb (Duration: 69.7ms | Allocations: 107507)
+  Rendered likes/_like.html.erb (Duration: 69.8ms | Allocations: 107567)
+  Rendered likes/_like.html.erb (Duration: 69.8ms | Allocations: 107627)
+  Rendered likes/_like.html.erb (Duration: 69.9ms | Allocations: 107687)
+  Rendered likes/_like.html.erb (Duration: 70.0ms | Allocations: 107747)
+  Rendered likes/_like.html.erb (Duration: 70.0ms | Allocations: 107807)
+  Rendered likes/_like.html.erb (Duration: 70.2ms | Allocations: 107867)
+  Rendered likes/_like.html.erb (Duration: 70.2ms | Allocations: 107927)
+  Rendered likes/_like.html.erb (Duration: 70.3ms | Allocations: 107987)
+  Rendered likes/_like.html.erb (Duration: 70.4ms | Allocations: 108047)
+  Rendered likes/_like.html.erb (Duration: 70.4ms | Allocations: 108107)
+  Rendered likes/_like.html.erb (Duration: 70.5ms | Allocations: 108167)
+  Rendered likes/_like.html.erb (Duration: 70.6ms | Allocations: 108227)
+  Rendered likes/_like.html.erb (Duration: 70.6ms | Allocations: 108287)
+  Rendered likes/_like.html.erb (Duration: 70.7ms | Allocations: 108347)
+  Rendered likes/_like.html.erb (Duration: 70.7ms | Allocations: 108407)
+  Rendered likes/_like.html.erb (Duration: 70.8ms | Allocations: 108467)
+  Rendered likes/_like.html.erb (Duration: 70.9ms | Allocations: 108527)
+  Rendered likes/_like.html.erb (Duration: 70.9ms | Allocations: 108587)
+  Rendered likes/_like.html.erb (Duration: 71.0ms | Allocations: 108647)
+  Rendered likes/_like.html.erb (Duration: 71.1ms | Allocations: 108707)
+  Rendered likes/_like.html.erb (Duration: 71.1ms | Allocations: 108767)
+  Rendered likes/_like.html.erb (Duration: 71.2ms | Allocations: 108827)
+  Rendered likes/_like.html.erb (Duration: 71.2ms | Allocations: 108887)
+  Rendered likes/_like.html.erb (Duration: 71.3ms | Allocations: 108947)
+  Rendered likes/_like.html.erb (Duration: 71.4ms | Allocations: 109007)
+  Rendered likes/_like.html.erb (Duration: 71.4ms | Allocations: 109067)
+  Rendered likes/_like.html.erb (Duration: 71.5ms | Allocations: 109127)
+  Rendered likes/_like.html.erb (Duration: 71.6ms | Allocations: 109187)
+  Rendered likes/_like.html.erb (Duration: 71.6ms | Allocations: 109247)
+  Rendered likes/_like.html.erb (Duration: 71.7ms | Allocations: 109307)
+  Rendered likes/_like.html.erb (Duration: 71.7ms | Allocations: 109367)
+  Rendered likes/_like.html.erb (Duration: 71.8ms | Allocations: 109427)
+  Rendered likes/_like.html.erb (Duration: 71.9ms | Allocations: 109487)
+  Rendered likes/_like.html.erb (Duration: 71.9ms | Allocations: 109547)
+  Rendered likes/_like.html.erb (Duration: 72.0ms | Allocations: 109607)
+  Rendered likes/_like.html.erb (Duration: 72.0ms | Allocations: 109667)
+  Rendered likes/_like.html.erb (Duration: 72.1ms | Allocations: 109727)
+  Rendered likes/_like.html.erb (Duration: 72.2ms | Allocations: 109787)
+  Rendered likes/_like.html.erb (Duration: 72.2ms | Allocations: 109847)
+  Rendered likes/_like.html.erb (Duration: 72.3ms | Allocations: 109907)
+  Rendered likes/_like.html.erb (Duration: 72.3ms | Allocations: 109967)
+  Rendered likes/_like.html.erb (Duration: 72.4ms | Allocations: 110027)
+  Rendered likes/_like.html.erb (Duration: 72.5ms | Allocations: 110087)
+  Rendered likes/_like.html.erb (Duration: 72.5ms | Allocations: 110147)
+  Rendered likes/_like.html.erb (Duration: 72.6ms | Allocations: 110207)
+  Rendered likes/_like.html.erb (Duration: 72.6ms | Allocations: 110267)
+  Rendered likes/_like.html.erb (Duration: 72.7ms | Allocations: 110327)
+  Rendered likes/_like.html.erb (Duration: 72.8ms | Allocations: 110387)
+  Rendered likes/_like.html.erb (Duration: 72.8ms | Allocations: 110447)
+  Rendered likes/_like.html.erb (Duration: 72.9ms | Allocations: 110507)
+  Rendered likes/_like.html.erb (Duration: 72.9ms | Allocations: 110567)
+  Rendered likes/_like.html.erb (Duration: 73.0ms | Allocations: 110627)
+  Rendered likes/_like.html.erb (Duration: 73.1ms | Allocations: 110687)
+  Rendered likes/_like.html.erb (Duration: 73.1ms | Allocations: 110747)
+  Rendered likes/_like.html.erb (Duration: 73.2ms | Allocations: 110807)
+  Rendered likes/_like.html.erb (Duration: 73.2ms | Allocations: 110867)
+  Rendered likes/_like.html.erb (Duration: 73.3ms | Allocations: 110927)
+  Rendered likes/_like.html.erb (Duration: 73.4ms | Allocations: 110987)
+  Rendered likes/_like.html.erb (Duration: 73.4ms | Allocations: 111047)
+  Rendered likes/_like.html.erb (Duration: 73.5ms | Allocations: 111107)
+  Rendered likes/_like.html.erb (Duration: 73.5ms | Allocations: 111167)
+  Rendered likes/_like.html.erb (Duration: 73.6ms | Allocations: 111227)
+  Rendered likes/_like.html.erb (Duration: 73.7ms | Allocations: 111287)
+  Rendered likes/_like.html.erb (Duration: 73.7ms | Allocations: 111347)
+  Rendered likes/_like.html.erb (Duration: 73.8ms | Allocations: 111407)
+  Rendered likes/_like.html.erb (Duration: 73.8ms | Allocations: 111467)
+  Rendered likes/_like.html.erb (Duration: 73.9ms | Allocations: 111527)
+  Rendered likes/_like.html.erb (Duration: 74.0ms | Allocations: 111587)
+  Rendered likes/_like.html.erb (Duration: 74.0ms | Allocations: 111647)
+  Rendered likes/_like.html.erb (Duration: 74.1ms | Allocations: 111707)
+  Rendered likes/_like.html.erb (Duration: 74.1ms | Allocations: 111767)
+  Rendered likes/_like.html.erb (Duration: 74.2ms | Allocations: 111827)
+  Rendered likes/_like.html.erb (Duration: 74.3ms | Allocations: 111887)
+  Rendered likes/_like.html.erb (Duration: 74.3ms | Allocations: 111947)
+  Rendered likes/_like.html.erb (Duration: 74.4ms | Allocations: 112007)
+  Rendered likes/_like.html.erb (Duration: 74.5ms | Allocations: 112067)
+  Rendered likes/_like.html.erb (Duration: 74.6ms | Allocations: 112127)
+  Rendered likes/_like.html.erb (Duration: 74.7ms | Allocations: 112187)
+  Rendered likes/_like.html.erb (Duration: 74.7ms | Allocations: 112247)
+  Rendered likes/_like.html.erb (Duration: 74.8ms | Allocations: 112307)
+  Rendered likes/_like.html.erb (Duration: 74.9ms | Allocations: 112367)
+  Rendered likes/_like.html.erb (Duration: 74.9ms | Allocations: 112427)
+  Rendered likes/_like.html.erb (Duration: 75.0ms | Allocations: 112487)
+  Rendered likes/_like.html.erb (Duration: 75.1ms | Allocations: 112547)
+  Rendered likes/_like.html.erb (Duration: 75.2ms | Allocations: 112607)
+  Rendered likes/_like.html.erb (Duration: 75.2ms | Allocations: 112667)
+  Rendered likes/_like.html.erb (Duration: 75.3ms | Allocations: 112727)
+  Rendered likes/_like.html.erb (Duration: 75.4ms | Allocations: 112787)
+  Rendered likes/_like.html.erb (Duration: 75.4ms | Allocations: 112847)
+  Rendered likes/_like.html.erb (Duration: 75.5ms | Allocations: 112907)
+  Rendered likes/_like.html.erb (Duration: 75.6ms | Allocations: 112967)
+  Rendered likes/_like.html.erb (Duration: 75.7ms | Allocations: 113027)
+  Rendered likes/_like.html.erb (Duration: 75.7ms | Allocations: 113087)
+  Rendered likes/_like.html.erb (Duration: 75.8ms | Allocations: 113147)
+  Rendered likes/_like.html.erb (Duration: 75.9ms | Allocations: 113207)
+  Rendered likes/_like.html.erb (Duration: 76.0ms | Allocations: 113267)
+  Rendered likes/_like.html.erb (Duration: 76.1ms | Allocations: 113327)
+  Rendered likes/_like.html.erb (Duration: 76.1ms | Allocations: 113387)
+  Rendered likes/_like.html.erb (Duration: 76.3ms | Allocations: 113447)
+  Rendered likes/_like.html.erb (Duration: 76.4ms | Allocations: 113507)
+  Rendered likes/_like.html.erb (Duration: 76.4ms | Allocations: 113567)
+  Rendered likes/_like.html.erb (Duration: 76.5ms | Allocations: 113627)
+  Rendered likes/_like.html.erb (Duration: 76.6ms | Allocations: 113687)
+  Rendered likes/_like.html.erb (Duration: 76.7ms | Allocations: 113747)
+  Rendered likes/_like.html.erb (Duration: 76.8ms | Allocations: 113807)
+  Rendered likes/_like.html.erb (Duration: 76.8ms | Allocations: 113867)
+  Rendered likes/_like.html.erb (Duration: 76.9ms | Allocations: 113927)
+  Rendered likes/_like.html.erb (Duration: 77.0ms | Allocations: 113987)
+  Rendered likes/_like.html.erb (Duration: 77.1ms | Allocations: 114047)
+  Rendered likes/_like.html.erb (Duration: 77.1ms | Allocations: 114107)
+  Rendered likes/_like.html.erb (Duration: 77.2ms | Allocations: 114167)
+  Rendered likes/_like.html.erb (Duration: 77.3ms | Allocations: 114227)
+  Rendered likes/_like.html.erb (Duration: 77.4ms | Allocations: 114287)
+  Rendered likes/_like.html.erb (Duration: 77.4ms | Allocations: 114347)
+  Rendered likes/_like.html.erb (Duration: 77.5ms | Allocations: 114407)
+  Rendered likes/_like.html.erb (Duration: 77.6ms | Allocations: 114467)
+  Rendered likes/_like.html.erb (Duration: 77.7ms | Allocations: 114527)
+  Rendered likes/_like.html.erb (Duration: 77.8ms | Allocations: 114587)
+  Rendered likes/_like.html.erb (Duration: 77.9ms | Allocations: 114647)
+  Rendered likes/_like.html.erb (Duration: 77.9ms | Allocations: 114707)
+  Rendered likes/_like.html.erb (Duration: 78.0ms | Allocations: 114767)
+  Rendered likes/_like.html.erb (Duration: 78.1ms | Allocations: 114827)
+  Rendered likes/_like.html.erb (Duration: 78.2ms | Allocations: 114887)
+  Rendered likes/_like.html.erb (Duration: 78.2ms | Allocations: 114947)
+  Rendered likes/_like.html.erb (Duration: 78.3ms | Allocations: 115007)
+  Rendered likes/_like.html.erb (Duration: 78.3ms | Allocations: 115067)
+  Rendered likes/_like.html.erb (Duration: 78.4ms | Allocations: 115127)
+  Rendered likes/_like.html.erb (Duration: 78.5ms | Allocations: 115187)
+  Rendered likes/_like.html.erb (Duration: 78.5ms | Allocations: 115247)
+  Rendered likes/_like.html.erb (Duration: 78.6ms | Allocations: 115307)
+  Rendered likes/_like.html.erb (Duration: 78.7ms | Allocations: 115367)
+  Rendered likes/_like.html.erb (Duration: 78.7ms | Allocations: 115427)
+  Rendered likes/_like.html.erb (Duration: 78.8ms | Allocations: 115487)
+  Rendered likes/_like.html.erb (Duration: 78.9ms | Allocations: 115547)
+  Rendered likes/_like.html.erb (Duration: 78.9ms | Allocations: 115607)
+  Rendered likes/_like.html.erb (Duration: 79.0ms | Allocations: 115667)
+  Rendered likes/_like.html.erb (Duration: 79.1ms | Allocations: 115727)
+  Rendered likes/_like.html.erb (Duration: 79.1ms | Allocations: 115787)
+  Rendered likes/_like.html.erb (Duration: 79.8ms | Allocations: 115994)
+  Rendered posts/show.html.erb within layouts/application (Duration: 87.3ms | Allocations: 119782)
+  Rendered layout layouts/application.html.erb (Duration: 87.4ms | Allocations: 119885)
+Completed 500 Internal Server Error in 126ms (ActiveRecord: 1.8ms | Allocations: 220672)
+
+
+
+SystemStackError - stack level too deep:
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/likes/_like.html.erb:1
+  app/views/posts/show.html.erb:29
+
+Started POST "/__better_errors/dda54656576786aa/variables" for ::1 at 2024-02-18 19:55:13 +0530
+Started GET "/posts/5" for ::1 at 2024-02-18 20:02:15 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mLike Load (0.1ms)[0m  [1m[34mSELECT "likes".* FROM "likes" WHERE "likes"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/views/posts/show.html.erb:29
+  Rendered posts/show.html.erb within layouts/application (Duration: 44.2ms | Allocations: 15985)
+  Rendered layout layouts/application.html.erb (Duration: 44.5ms | Allocations: 16074)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 1.4ms | Allocations: 24445)
+
+
+
+NoMethodError - undefined method `user_signed_in?' for #<ActionView::Base:0x00000000014370>:
+  app/views/posts/show.html.erb:37
+
+Started POST "/__better_errors/aa5c5af17052a276/variables" for ::1 at 2024-02-18 20:02:15 +0530
+Started GET "/posts/5" for ::1 at 2024-02-18 20:04:04 +0530
+Started GET "/posts/6" for ::1 at 2024-02-18 20:04:14 +0530
+Processing by PostsController#show as HTML
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 9.9ms | Allocations: 5508)
+  Rendered posts/show.html.erb within layouts/application (Duration: 17.6ms | Allocations: 10346)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 10483)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 10477)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 1.4ms | Allocations: 20767)
+
+
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.6ms | Allocations: 20744)
+
+
+
+NameError - undefined local variable or method `current_user' for #<ActionView::Base:0x00000000018d30>
+Did you mean?  current_page?:
+  app/views/posts/show.html.erb:29
+
+
+NameError - undefined local variable or method `current_user' for #<ActionView::Base:0x00000000018d58>
+Did you mean?  current_page?:
+  app/views/posts/show.html.erb:29
+
+Started GET "/" for ::1 at 2024-02-18 20:37:26 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 28.1ms | Allocations: 75484)
+  Rendered layout layouts/application.html.erb (Duration: 131.2ms | Allocations: 127086)
+Completed 200 OK in 152ms (Views: 131.6ms | ActiveRecord: 2.1ms | Allocations: 150688)
+
+
+Started GET "/posts/5" for ::1 at 2024-02-18 20:37:31 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/views/posts/show.html.erb:32
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/views/posts/show.html.erb:33
+  Rendered collection of templates [0 times] (Duration: 0.0ms | Allocations: 28)
+  Rendered comments/_form.html.erb (Duration: 32.3ms | Allocations: 55108)
+  Rendered posts/show.html.erb within layouts/application (Duration: 57.1ms | Allocations: 66012)
+  Rendered layout layouts/application.html.erb (Duration: 60.4ms | Allocations: 69488)
+Completed 200 OK in 67ms (Views: 60.7ms | ActiveRecord: 0.7ms | Allocations: 72748)
+
+
+Started POST "/posts/5/comments" for ::1 at 2024-02-18 20:37:54 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "comment"=>{"name"=>"user1", "comment"=>"1st comment from 1st user"}, "commit"=>"Leave a reply", "post_id"=>"5"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:3:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/comments_controller.rb:4:in `create'
+  [1m[36mComment Create (1.5ms)[0m  [1m[32mINSERT INTO "comments" ("name", "comment", "created_at", "updated_at", "post_id") VALUES (?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "user1"], ["comment", "1st comment from 1st user"], ["created_at", "2024-02-18 15:07:54.575384"], ["updated_at", "2024-02-18 15:07:54.575384"], ["post_id", 5]]
+  ↳ app/controllers/comments_controller.rb:4:in `create'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/comments_controller.rb:4:in `create'
+Redirected to http://[::1]:3000/posts/5
+Completed 302 Found in 10ms (ActiveRecord: 2.5ms | Allocations: 4905)
+
+
+Started GET "/posts/5" for ::1 at 2024-02-18 20:37:54 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/views/posts/show.html.erb:32
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/views/posts/show.html.erb:33
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.7ms | Allocations: 477)
+  Rendered comments/_form.html.erb (Duration: 1.4ms | Allocations: 1362)
+  Rendered posts/show.html.erb within layouts/application (Duration: 5.2ms | Allocations: 3918)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 7371)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 8203)
+
+
+Started GET "/" for ::1 at 2024-02-18 20:38:02 +0530
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 701)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 4263)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.1ms | Allocations: 4581)
+
+
+Started GET "/posts/5" for ::1 at 2024-02-18 20:38:04 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/views/posts/show.html.erb:32
+  [1m[36mComment Load (0.0ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/views/posts/show.html.erb:33
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.3ms | Allocations: 163)
+  Rendered comments/_form.html.erb (Duration: 1.5ms | Allocations: 1274)
+  Rendered posts/show.html.erb within layouts/application (Duration: 4.6ms | Allocations: 3288)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 6641)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.2ms | Allocations: 7429)
+
+
+Started GET "/" for ::1 at 2024-02-18 20:38:34 +0530
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 14.6ms | Allocations: 703)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 4351)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.1ms | Allocations: 4669)
+
+
+Started GET "/search/index" for ::1 at 2024-02-18 20:38:41 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search/index"):
+  
+Started GET "/search" for ::1 at 2024-02-18 20:38:47 +0530
+Processing by SearchController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "posts".* FROM "posts"[0m
+  ↳ app/views/search/index.html.erb:7
+  Rendered search/_post_title.html.erb (Duration: 0.4ms | Allocations: 149)
+  Rendered search/_post_title.html.erb (Duration: 0.1ms | Allocations: 35)
+  Rendered search/_post_title.html.erb (Duration: 0.0ms | Allocations: 35)
+  Rendered search/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1751)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 5559)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.2ms | Allocations: 6464)
+
+
+Started GET "/search?q%5Btitle_cont%5D=first+post&commit=Search" for ::1 at 2024-02-18 20:38:57 +0530
+Processing by SearchController#index as HTML
+  Parameters: {"q"=>{"title_cont"=>"first post"}, "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT DISTINCT "posts".* FROM "posts" WHERE "posts"."title" LIKE '%first post%'[0m
+  ↳ app/views/search/index.html.erb:7
+  Rendered search/_post_title.html.erb (Duration: 0.2ms | Allocations: 36)
+  Rendered search/_post_title.html.erb (Duration: 0.1ms | Allocations: 35)
+  Rendered search/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1039)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 4591)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.2ms | Allocations: 5615)
+
+
+Started GET "/posts/5" for ::1 at 2024-02-18 20:39:02 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/views/posts/show.html.erb:32
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/views/posts/show.html.erb:33
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.5ms | Allocations: 182)
+  Rendered comments/_form.html.erb (Duration: 2.1ms | Allocations: 1376)
+  Rendered posts/show.html.erb within layouts/application (Duration: 7.7ms | Allocations: 3481)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 6834)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.3ms | Allocations: 7643)
+
+
+Started GET "/search?q%5Btitle_cont%5D=&commit=Search" for ::1 at 2024-02-18 20:39:13 +0530
+Processing by SearchController#index as HTML
+  Parameters: {"q"=>{"title_cont"=>""}, "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT DISTINCT "posts".* FROM "posts"[0m
+  ↳ app/views/search/index.html.erb:7
+  Rendered search/_post_title.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered search/_post_title.html.erb (Duration: 0.0ms | Allocations: 35)
+  Rendered search/_post_title.html.erb (Duration: 0.0ms | Allocations: 35)
+  Rendered search/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1034)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 4615)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.1ms | Allocations: 4981)
+
+
+Started GET "/search?q%5Btitle_cont%5D=second+post&commit=Search" for ::1 at 2024-02-18 20:39:17 +0530
+Processing by SearchController#index as HTML
+  Parameters: {"q"=>{"title_cont"=>"second post"}, "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering search/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT DISTINCT "posts".* FROM "posts" WHERE "posts"."title" LIKE '%second post%'[0m
+  ↳ app/views/search/index.html.erb:7
+  Rendered search/_post_title.html.erb (Duration: 0.2ms | Allocations: 36)
+  Rendered search/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 895)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 4449)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.1ms | Allocations: 4970)
+
+
+Started GET "/posts/7" for ::1 at 2024-02-18 20:39:19 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/views/posts/show.html.erb:32
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/views/posts/show.html.erb:33
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 1.5ms | Allocations: 163)
+  Rendered comments/_form.html.erb (Duration: 8.2ms | Allocations: 1274)
+  Rendered posts/show.html.erb within layouts/application (Duration: 23.0ms | Allocations: 3292)
+  Rendered layout layouts/application.html.erb (Duration: 66.2ms | Allocations: 6679)
+Completed 200 OK in 70ms (Views: 66.7ms | ActiveRecord: 0.2ms | Allocations: 7466)
+
+

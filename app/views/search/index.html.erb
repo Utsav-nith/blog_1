@@ -1,0 +1,13 @@
+<h1>Search#index</h1>
+<%= search_form_for @q, url: search_path, method: :get do |f| %>
+  <%= f.search_field :title_cont, placeholder: "Search by title..." %>
+  <%= f.submit "Search" %>
+<% end %>
+
+<% if @posts.present? %>
+  <% @posts.each do |post| %>
+    <%= render partial: 'post_title', locals: { post: post } %>
+  <% end %>
+<% else %>
+  <p>No posts found.</p>
+<% end %>
